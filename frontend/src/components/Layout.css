@@ -1,0 +1,24 @@
+.app-layout {
+  min-height: 100vh;
+  background: #f4f5f7;
+}
+
+.main-area {
+  margin-left: 240px;
+  min-height: 100vh;
+}
+
+.topbar {
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+.page-content {
+  padding: 40px;
+}

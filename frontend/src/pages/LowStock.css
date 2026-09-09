@@ -1,0 +1,123 @@
+.low-stock-page {
+  min-height: calc(100vh - 150px);
+}
+
+.low-stock-content {
+  width: 100%;
+}
+
+.low-stock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.low-stock-content h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.low-stock-subtitle {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.low-stock-count {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.low-stock-loading {
+  color: #666;
+  margin-top: 30px;
+}
+
+.low-stock-error {
+  color: #dc2626;
+}
+
+.no-low-stock {
+  background: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.no-low-stock h2 {
+  margin-bottom: 8px;
+}
+
+.no-low-stock p {
+  color: #666;
+}
+
+.low-stock-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.low-stock-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.low-stock-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.low-stock-info {
+  padding: 20px;
+}
+
+.low-stock-info h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.low-stock-info p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.stock-warning {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  padding: 12px;
+  background: #fee2e2;
+  border-radius: 8px;
+  color: #991b1b;
+}
+
+.stock-warning strong {
+  font-size: 20px;
+}
+
+.restock-button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.restock-button:hover {
+  background: #444;
+}
